@@ -2,8 +2,8 @@
 "use client";
 
 import {
-  Github,
-  Linkedin,
+  Code2,
+  Globe,
   ArrowUp,
   Sparkles,
 } from "lucide-react";
@@ -55,7 +55,7 @@ export default function Footer() {
               aria-label="GitHub"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-slate-400 transition hover:border-cyan-400 hover:text-cyan-400"
             >
-              <Github size={19} />
+              <Code2 size={19} />
             </a>
 
             <a
@@ -65,7 +65,7 @@ export default function Footer() {
               aria-label="LinkedIn"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-slate-400 transition hover:border-cyan-400 hover:text-cyan-400"
             >
-              <Linkedin size={19} />
+              <Globe size={19} />
             </a>
           </div>
         </div>

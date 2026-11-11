@@ -1,11 +1,10 @@
-
 "use client";
 
 import { motion } from "framer-motion";
 import {
   Mail,
-  Github,
-  Linkedin,
+  Code2,
+  Globe,
   Send,
   MapPin,
   ArrowUpRight,
@@ -15,17 +14,17 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "your-email@example.com",
+    value: "jakariachowdhury53@gmail.com",
     href: "mailto:your-email@example.com",
   },
   {
-    icon: Github,
+    icon: Code2,
     label: "GitHub",
     value: "github.com/jakaria53",
     href: "https://github.com/jakaria53",
   },
   {
-    icon: Linkedin,
+    icon: Globe,
     label: "LinkedIn",
     value: "Connect with me",
     href: "https://www.linkedin.com/",

@@ -3,7 +3,7 @@
 
 import { motion } from "framer-motion";
 import {
-  Github,
+  
   ExternalLink,
   Code2,
   Layers3,
@@ -132,7 +132,7 @@ export default function Projects() {
                       rel="noreferrer"
                       className="inline-flex items-center gap-2 text-sm font-semibold text-white transition hover:text-cyan-400"
                     >
-                      <Github size={18} />
+                      <Code2 size={18} />
                       {project.title === "CampusNest" ? "Frontend" : "GitHub"}
                       <ExternalLink size={14} />
                     </a>
@@ -144,7 +144,7 @@ export default function Projects() {
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 text-sm font-semibold text-white transition hover:text-cyan-400"
                       >
-                        <Github size={18} />
+                        <Code2 size={18} />
                         Backend
                         <ExternalLink size={14} />
                       </a>
